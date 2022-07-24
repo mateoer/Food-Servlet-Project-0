@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Food Servlet</title>
+
+<link rel="stylesheet" type="text/css" href="/FoodServlet2/resources/css/mystyles.css"/>
+</head>
+<body>
+
+	<div class="login-container">
+		<h4>Food Servlet Login</h4>
+		
+		<!-- FORWARDING SERVLET EXAMPLE -->
+		<!-- <form method="post" action="http://localhost:9002/HelloFrontController/forwarding/login"> -->
+		<form method="POST" action="/FoodServlet2/login">
+			<p>Please log in, arigato!</p>
+			
+			<input type="text" placeholder="enter username" name="theirUsername"/>
+			<br>
+			<input type="text" placeholder="enter password" name="theirPassword"/>
+			<br>
+			<input type="submit" value="Login"/>
+		</form>	
+		
+	</div>
+</body>
+</html>

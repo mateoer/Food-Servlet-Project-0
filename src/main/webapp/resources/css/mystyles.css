@@ -1,0 +1,22 @@
+body,
+.login-container {
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    background: url(/FoodServlet2/resources/css/stars-milky-way-starry-sky-4k_1536016980.jpg) no-repeat center center fixed ;
+  	background-size: cover;
+  	color: #fff;
+}
+
+form {
+	align-items: center;
+	border: 2px solid white;
+	padding: 10px;
+	margin: 10px;
+}
+
+input {
+	margin: 3px;
+}
